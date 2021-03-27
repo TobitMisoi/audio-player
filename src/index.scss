@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    // align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: tan;
+    justify-content: space-around;
+    h1 {
+        font-family: monospace;
+    }
+}
+ul {
+    list-style: none;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    li {
+        border: 1px solid;
+        padding: 1rem;
+        border-radius: 4px;
+        margin-bottom: 1rem;
+        cursor: pointer;
+        &:hover {
+            border: 1px solid green;
+        }
+    }
+}
+
+div {
+    button {
+        padding: .35rem;
+        background: transparent;
+        outline: none;
+        border: none;
+        border: 1px solid;
+        border-radius: 4px;
+        margin-right: 1rem;
+    }
+}
